@@ -11,7 +11,7 @@ int main(){
 
     //Permes struktures degezuese IF
     if(mesatarja>=9){
-        cout<<"Fiton burs\u00CB universitare dhe bursen komunale\n";
+        cout<<"Fiton burs universitare dhe bursen komunale\n";
     }
     else if(mesatarja>=8){
         cout<<"Fiton burs\x89n komunale\n";
