@@ -11,7 +11,7 @@ int main(){
             k++;
         }
     }
-    cout<<"Numri i vlerave te shnderruar ne numri cift eshte: "<<k<<endl;
+    cout<<"Numri i vlerave te shnderruar ne numra cift eshte: "<<k<<endl;
     for(int i=0;i<n;i++){
         cout<<vargu[i]<<" ";
     }
