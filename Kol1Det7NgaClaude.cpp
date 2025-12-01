@@ -11,6 +11,7 @@ using namespace std;
 int main(){
     const int n=10;
     float numrat[n],s=0,mes,numruesi=0;
+    
     for(int i=0;i<n;i++){
         cout<<"Vendos vleren "<<i+1<<": ";
         cin>>numrat[i];
