@@ -41,15 +41,14 @@ int minimalja(int vargu[], int n)
 int main()
 {
 
-    int a=2,b=-4,c=-12;
+    int a = 2, b = -4, c = -12;
 
-    const int n=7;
-    int vargu[n]={3,-8,6,1,-2,2,5};
+    const int n = 7;
+    int vargu[n] = {3, -8, 6, 1, -2, 2, 5};
 
-    std:: cout<<"Minimalja e dy numrave: "<<minimalja(a,b)<<std::endl;
-    std:: cout<<"Minimalja e tre numrave: "<<minimalja(a,b,c)<<std::endl;
-    std::cout<<"Minimalja e vargut: "<<minimalja(vargu,n)<<std::endl;
+    std::cout << "Minimalja e dy numrave: " << minimalja(a, b) << std::endl;
+    std::cout << "Minimalja e tre numrave: " << minimalja(a, b, c) << std::endl;
+    std::cout << "Minimalja e vargut: " << minimalja(vargu, n) << std::endl;
 
-    
     return 0;
 }
